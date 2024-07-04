@@ -1,6 +1,37 @@
 @media (min-width: 360px) and (max-width: 480px) {
+    .offer__slide > img {
+        width: 450%;
+    }
+    .offer__control {
+        top: 110%;
+    }
+    .offer__link {
+        font-size: 17px;
+    }
+    .offer__title {
+        font-size: 30px;
+    }
+
+    .columns__text {
+        text-align: center;
+    }
+    .columns__content {
+        display: grid;
+        gap: 25px;
+    } 
+    .columns__item {
+     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    }
     .faq__banner img {
-        width: 300%;
+        width: 100%;
     }
   
     .help__text {
@@ -56,7 +87,7 @@
     height: 800px
   }
   .opening img {
-    width: 260%;
+    width: 270%;
   }
     .opening__block {
         max-width: 100%;
@@ -118,6 +149,31 @@
 
 }
 @media (min-width: 481px) and (max-width: 768px) {
+    .offer__slide > img {
+        width: 310%;
+    }
+    .offer__control {
+        top: 110%;
+    }
+    .columns__text {
+        text-align: center;
+    }
+
+    .columns__content {
+        display: grid;
+        gap: 25px;
+    } 
+    .columns__item {
+     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    }
     .opening img {
         width: 200%;
       }
@@ -125,7 +181,7 @@
         display: flex;
     }
     .faq__banner img {
-        width: 200%;
+        width: 100%;
     } 
 
     .help__text {
@@ -230,11 +286,14 @@
 
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    .offer__slide > img {
+        width: 210%;
+    }
     .opening img {
-        width: 150%;
+        width: 170%;
       }
     .faq__banner img {
-        width: 150%;
+        width: 100%;
     } 
     .header__content {
         padding: 0;
@@ -265,7 +324,9 @@
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    .offer__slide > img {
+        width: 200%;
+    }
 }
 
 @media (min-width: 360px) and (max-width: 991px) {
